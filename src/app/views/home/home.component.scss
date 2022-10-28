@@ -1,0 +1,149 @@
+
+    
+    .banner {
+        background-image: url(/assets/img/banner.png);
+        background-image: no repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .banner h1 {
+        font-size: 80px;
+    }
+    .banner h3 {
+        font-size: 30px;
+    }
+    .informações { 
+        background-color: #1A1957; 
+        width: 100%;
+        height: fit- fit-content;
+        color: white;
+        margin-bottom: 20px;
+        padding: 30px;
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .informações h3 {
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    .informações h4 {
+        font-size: 20px;
+        font-style: italic;
+    }
+    .destaques {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .PCGAMER {
+        background-image: url(/assets/img/pcgamer.png);
+        background-repeat: no-repeat;
+        width:45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jogos {
+        background-image: url(/assets/img/cs.png);
+        background-repeat: no-repeat;
+        width:45%;
+    }
+    .pc-button {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border-color: #1A1957;
+        font-size: 24px;
+        display: flex;
+        width: 25%;
+        height: 20%;
+    }
+    .jogos h1 {
+        color: white;
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 40px;
+    }
+    .jogos p {
+        padding: 20px;
+        font-size: 14px;
+        margin-bottom:0;
+        padding-bottom: 0;
+    }
+    .jogos-button {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border-color: #1A1957;
+        font-size: 16px;
+        margin-left: 55px;
+        text-transform: uppercase;
+    }
+    .Diversos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .chamadat {
+        display: flex;
+        justify-content: space-between;
+    }
+    .chamada {
+        text-transform: uppercase;
+        color: white;
+        background-color: #0081FF;
+        font-size: 32px;
+        padding: 10px;
+        width: 418px;
+        height: 62px;
+        display: flex;
+        justify-content: center;
+    }
+    .lançamentos {
+        background-image: url(/assets/img/VR.jpg);
+        display: flex;
+        width:418px;
+        height:395px;
+        justify-content: center;
+    }
+    .mais-vendidos{
+        background-image: url(/assets/img/FONES.jpg);
+        display: flex;
+        width:418px;
+        height:395px;  
+        justify-content: center;
+    }
+    .promoções {
+        background-image: url(/assets/img/TECLADO.jpg);
+        display: flex;
+        width:418px;
+        height:395px;
+        justify-content: center;
+    }
+    .button-diversos {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        border-color: #1A1957;
+        font-size: 24px;
+        width: 220px;
+        height:80px;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        padding:5px;
+    }
+   

@@ -1,0 +1,75 @@
+.nav {
+    background-color: #1A1957;
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    top:0;
+    padding:30px;
+  }
+  #barras {
+    display: none;
+  }
+  .icone-menu {
+    height: 40px;
+  
+  }
+  .menu {
+    display: flex;
+    list-style: none;
+  }  
+  .menu a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    width: 30%;
+    height: 80%;
+  }
+  header {
+    background-color: #1A1957;
+    width: 100%;
+    height: fit-content;
+    display: flex;   
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
+  .pesquisa {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+  }
+  .caixa-de-pesquisa {
+    background-color: black;
+    border-color:#1A1957;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 400px;
+    padding: 5px;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    align-self: flex-end;
+    width: 20%;
+    height: 20%;
+    flex:1;
+  }
+  .login-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  } 

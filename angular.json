@@ -98,10 +98,16 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/script.js",
+              "src/assets/js/jquery.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "88122f15-c0e7-48c1-a640-7731dff89c72"
   }
 }
